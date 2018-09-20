@@ -1,5 +1,5 @@
 .hero {
-  background: url("static/images/topBG.png") center no-repeat;
+  background: url("/static/images/topBG.png") center no-repeat;
   background-size: cover;
 }
 
@@ -44,6 +44,7 @@
   box-shadow: 0px 0px 62px 0px rgba(0,0,0,0.15);
   margin-bottom: 50px;
   font-weight: 900;
+  padding: 50px;
 }
 
 #date-info {
