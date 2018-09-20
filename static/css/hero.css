@@ -1,8 +1,7 @@
 .hero {
-  background: url("/static/images/topBG.png") center no-repeat;
+  background: url("static/images/topBG.png") center no-repeat;
   background-size: cover;
 }
-
 
 .nav-link {
   font-weight: 600;
