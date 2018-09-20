@@ -1,0 +1,19 @@
+#sponsors {
+  background-color: #f1f5f7;
+  height: auto;
+  min-height: 0;
+  padding: 60px;
+}
+
+h3 {
+  color: #cacaca;
+}
+
+.sponsors-row {
+  margin-bottom: 80px;
+}
+
+.sponsor-image {
+  max-width: 200px;
+  max-height: 100%;
+}

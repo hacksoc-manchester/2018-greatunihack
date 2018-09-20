@@ -1,0 +1,78 @@
+.hero {
+  background: url("/static/images/topBG.png") center no-repeat;
+  background-size: cover;
+}
+
+
+.nav-link {
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 0;
+}
+
+#header {
+  font-size: 100px;
+  color: #FFF;
+  font-weight: bold;
+  line-height: 0.69;
+  text-align: left;
+  margin-top: 15%;
+  width: 735px;
+  height: 80px;
+}
+
+#header-subscript {
+  margin-top: 20px;
+  font-weight: 200;
+  max-width: 600px;
+  color: #eeeeee;
+}
+
+#timer {
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  background-color: #FFF;
+  width: 60%;
+  height: 230px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 62px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 0px 62px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 62px 0px rgba(0,0,0,0.15);
+  margin-bottom: 50px;
+  font-weight: 900;
+}
+
+#date-info {
+  font-size: 25px;
+}
+
+#venue-info {
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+
+.timer-number, .number-subscript {
+  text-align: center;
+}
+
+.timer-number {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.number-subscript {
+  margin-top: -15px;
+  font-size: 13px
+}
+
+@media screen and (max-width: 768px) {
+  html, body, #body, #container {
+      background: #fff;
+  }
+}

@@ -1,0 +1,33 @@
+#faq {
+  background: url("/static/images/faqBG.png") center no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.question-card-container {
+  padding: 10px 15px;
+}
+
+.question-card {
+  padding: 25px 20px;
+  border: solid 1px #dedede;
+  border-radius: 5px;
+  color: #888888;
+}
+
+.question-title {
+  color: #7e7e7e;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.question-answer {
+  font-size: 13px;
+}
+
+.question-card:hover {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.13);
+  -moz-box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.13);
+  box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.13);
+}
