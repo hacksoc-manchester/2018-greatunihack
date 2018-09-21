@@ -13,3 +13,11 @@ function closeImage() {
 function scrollToSection(sectionId) {
   window.scroll({ top: $(sectionId).offset().top, left: 0, behavior: 'smooth' });
 }
+
+$(window).resize(function(){
+  if ($(window).width() < 576) {
+    $(".sponsor-row").addClass("justify-content-center");
+  } else {
+    $(".sponsor-row").removeClass("justify-content-center");
+  }
+});
