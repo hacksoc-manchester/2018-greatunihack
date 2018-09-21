@@ -3,7 +3,10 @@
 
 var countDownDate = new Date("Nov 10, 2018 9:00:00").getTime();
 
-var x = setInterval(function() {
+var x = setInterval(updateTime, 1000);
+updateTime();
+
+function updateTime() {
   var now = new Date().getTime();
   var distance = countDownDate - now;
 
@@ -21,4 +24,4 @@ var x = setInterval(function() {
     clearInterval(x);
     // TODO: create handler for when the timer runs out
   }
-}, 1000);
+}
