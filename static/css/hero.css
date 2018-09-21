@@ -72,6 +72,11 @@
   cursor: pointer;
 }
 
+#apply-button {
+  position: relative;
+  top: 20px;
+}
+
 @media screen and (max-width: 1440px) {
   #date-info {
     font-size: 23px;
@@ -130,6 +135,9 @@
   }
   #header {
     margin-top: 40%;
+  }
+  #apply-button {
+    margin-bottom: 20px;
   }
 }
 

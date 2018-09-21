@@ -53,6 +53,21 @@ h1 {
   background: #3c2b5f;
 }
 
+.button-white {
+  padding: 10px 15px;
+  text-decoration: none !important;
+  font-weight: 900;
+  border-radius: 4px;
+  margin: 0 auto;
+  color: #3c2b5f !important;
+  background: #fff;
+}
+
+.button-white:hover {
+  background: #3c2b5f;
+  color: #fff !important;
+}
+
 footer {
   background: #2b2b2b;
   padding: 30px 0;
