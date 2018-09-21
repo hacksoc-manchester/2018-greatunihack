@@ -33,17 +33,17 @@
 #timer {
   position: absolute;
   top: 75%;
-  left: 20%;
+  left: 21%;
   background-color: #FFF;
   width: 60%;
   height: 230px;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 62px 0px rgba(0,0,0,0.15);
-  -moz-box-shadow: 0px 0px 62px 0px rgba(0,0,0,0.15);
-  box-shadow: 0px 0px 62px 0px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 0px 0px 62px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 62px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 62px 0px rgba(0, 0, 0, 0.15);
   margin-bottom: 50px;
   font-weight: 900;
-  padding: 50px;
+  padding: 40px;
 }
 
 #date-info {
@@ -55,14 +55,12 @@
   margin-top: -10px;
 }
 
-
 .timer-number, .number-subscript {
   text-align: center;
 }
 
 .timer-number {
   font-size: 60px;
-  margin-bottom: 0;
 }
 
 .number-subscript {
@@ -70,8 +68,99 @@
   font-size: 13px
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
+  #date-info {
+    font-size: 23px;
+  }
+  #timer {
+    width: 72%;
+    left: 15%;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #timer {
+    width: 80%;
+    left: 11.5%;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #header {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 884px) {
+  #timer {
+    width: 90%;
+    left: 7%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   html, body, #body, #container {
-      background: #fff;
+    background: #fff;
+  }
+  #date-info, #venue-info {
+    text-align: center;
+  }
+  .navbar-nav {
+    margin: 0 !important;
+    background: #fff !important;
+  }
+  .navbar {
+    position:absolute;
+    padding: 0;
+    width:100%;
+  }
+  .nav-item {
+    background: #fff !important;
+    padding: 10px;
+  }
+  .nav-item>a {
+    color: #3c2b5f !important;
+  }
+  #header {
+    margin-top: 40%;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  #header {
+    font-size: 35px;
+  }
+  #timer {
+    left: 7.5%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #header {
+    font-size: 30px;
+    margin-top: 30%;
+  }
+
+  .timer-number {
+    font-size: 40px;
+  }
+  
+  .number-subscript {
+    font-size: 10px
+  }
+  #timer {
+    left: 8%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #header {
+    font-size: 25px;
+  }
+  #timer {
+    left: 9%;
   }
 }

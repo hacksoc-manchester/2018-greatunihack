@@ -20,4 +20,10 @@ $(window).resize(function(){
   } else {
     $(".sponsor-row").removeClass("justify-content-center");
   }
+
+  if ($(window).width() < 768) {
+    $(".timer-column").addClass("col-3");
+  } else {
+    $(".timer-column").removeClass("col-3");
+  }
 });
