@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>GreatUniHack 2018</title>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+  <script src="/static/js/jQuery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
@@ -27,34 +26,6 @@
 
 <body>
   <section class="hero">
-    <div id="timer" class="row purple">
-        <div class="col-sm-4 align-contents-vertical">
-          <div>
-            <div id="date-info" class="purple">
-              10 - 11 November
-            </div>
-            <div id="venue-info" class="purple">
-              MMU Business School
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-2 align-contents-vertical">
-          <div id="days" class="timer-number">51</div>
-          <div class="number-subscript">DAYS</div>
-        </div>
-        <div class="col-sm-2 align-contents-vertical">
-          <div id="hours" class="timer-number">2</div>
-          <div class="number-subscript">HOURS</div>
-        </div>
-        <div class="col-sm-2 align-contents-vertical">
-          <div id="minutes" class="timer-number">24</div>
-          <div class="number-subscript">MINUTES</div>
-        </div>
-        <div class="col-sm-2 align-contents-vertical">
-          <div id="seconds" class="timer-number">15</div>
-          <div class="number-subscript">SECONDS</div>
-        </div>
-      </div>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-11">
@@ -87,7 +58,7 @@
             </div>
           </nav>
           <div class="row">
-            <div id="header"><b>don't miss out.</b></div>
+            <div id="header"><b>GreatUniHack 2018</b></div>
           </div>
           <div class="row">
             <div id="header-subscript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi hic corrupti
@@ -99,6 +70,35 @@
         </div>
       </div>
     </div>
+    <div id="timer" class="row purple">
+      <div class="col-sm-4 align-contents-vertical">
+        <div>
+          <div id="date-info" class="purple">
+            10 - 11 November
+          </div>
+          <div id="venue-info" class="purple">
+            MMU Business School
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 align-contents-vertical">
+        <div id="days" class="timer-number"></div>
+        <div class="number-subscript">DAYS</div>
+      </div>
+      <div class="col-sm-2 align-contents-vertical">
+        <div id="hours" class="timer-number"></div>
+        <div class="number-subscript">HOURS</div>
+      </div>
+      <div class="col-sm-2 align-contents-vertical">
+        <div id="minutes" class="timer-number"></div>
+        <div class="number-subscript">MINUTES</div>
+      </div>
+      <div class="col-sm-2 align-contents-vertical">
+        <div id="seconds" class="timer-number"></div>
+        <div class="number-subscript">SECONDS</div>
+      </div>
+    </div>
+    <script src="/static/js/timer.js"></script>
   </section>
   <section id="about-us">
     <div class="container">
@@ -208,10 +208,41 @@
       <div class="row justify-content-center">
         <div class="col-11">
           <div class="row">
-            <h1>we had fun last year</h1>
-            <div id="gallery-content">
-
+            <div class="row">
+              <h1>we had fun last year</h1>
             </div>
+            <div id="gallery-content" class="row">
+              <div class="col-md-3 gallery-image-container">
+                <img id="1" class="gallery-image smooth-transitions" src="/static/images/gallery/thumbnails/1_thumbnail.jpg" alt="" onclick="openImage(this)">
+              </div>
+              <div class="col-md-3 gallery-image-container">
+                <img id="2" class="gallery-image smooth-transitions" src="/static/images/gallery/thumbnails/2_thumbnail.jpg" alt="" onclick="openImage(this)">
+              </div>
+              <div class="col-md-3 gallery-image-container">
+                <img id="3" class="gallery-image smooth-transitions" src="/static/images/gallery/thumbnails/3_thumbnail.jpg" alt="" onclick="openImage(this)">
+              </div>
+              <div class="col-md-3 gallery-image-container">
+                <img id="4" class="gallery-image smooth-transitions" src="/static/images/gallery/thumbnails/4_thumbnail.jpg" alt="" onclick="openImage(this)">
+              </div>
+              <div class="col-md-3 gallery-image-container">
+                <img id="5" class="gallery-image smooth-transitions" src="/static/images/gallery/thumbnails/5_thumbnail.jpg" alt="" onclick="openImage(this)">
+              </div>
+              <div class="col-md-3 gallery-image-container">
+                <img id="6" class="gallery-image smooth-transitions" src="/static/images/gallery/thumbnails/6_thumbnail.jpg" alt="" onclick="openImage(this)">
+              </div>
+              <div class="col-md-3 gallery-image-container">
+                <img id="7" class="gallery-image smooth-transitions" src="/static/images/gallery/thumbnails/7_thumbnail.jpg" alt="" onclick="openImage(this)">
+              </div>
+              <div class="col-md-3 gallery-image-container">
+                <img id="8" class="gallery-image smooth-transitions" src="/static/images/gallery/thumbnails/8_thumbnail.jpg" alt="" onclick="openImage(this)">
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <a class="button smooth-transitions" href="https://www.hacksoc.com/gallery" target="_blank" rel="noopener noreferrer">
+              See More
+            </a>
           </div>
         </div>
       </div>
@@ -287,6 +318,13 @@
       </div>
     </div>
   </section>
+  <div id="image-preview-container" onclick="closeImage()">
+    <img id="image-preview">
+    <i id="image-preview-close" class="fas fa-times fa-3x" onclick="closeImage()"></i>
+  </div>
 </body>
+<footer>
 
+  <script src="/static/js/main.js"></script>
+</footer>
 </html>
