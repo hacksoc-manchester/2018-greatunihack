@@ -1,4 +1,4 @@
-/* globals $ */
+/* globals $, window */
 "use strict";
 
 function openImage(img) {
@@ -8,4 +8,8 @@ function openImage(img) {
 
 function closeImage() {
   $("#image-preview-container").fadeOut();
+}
+
+function scrollToSection(sectionId) {
+  window.scroll({ top: $(sectionId).offset().top, left: 0, behavior: 'smooth' });
 }
