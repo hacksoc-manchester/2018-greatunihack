@@ -68,6 +68,10 @@
   font-size: 13px
 }
 
+.nav-item {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1440px) {
   #date-info {
     font-size: 23px;
@@ -113,9 +117,9 @@
     background: #fff !important;
   }
   .navbar {
-    position:absolute;
+    position: absolute;
     padding: 0;
-    width:100%;
+    width: 100%;
   }
   .nav-item {
     background: #fff !important;
@@ -143,11 +147,9 @@
     font-size: 30px;
     margin-top: 30%;
   }
-
   .timer-number {
     font-size: 40px;
   }
-  
   .number-subscript {
     font-size: 10px
   }

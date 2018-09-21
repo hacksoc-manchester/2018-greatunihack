@@ -4,6 +4,8 @@
 function openImage(img) {
   $("#image-preview").attr("src", "/static/images/gallery/" + img.id + ".jpg");
   $("#image-preview-container").fadeIn();
+  var topPosition = (($(window).height() - $("#image-preview").height()) / 2) + "px";
+  $("#image-preview").css("top", topPosition);
 }
 
 function closeImage() {
