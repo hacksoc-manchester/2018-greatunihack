@@ -1,4 +1,4 @@
-@import url("static/fonts/Montserrat/fonts/ttf/Montserrat.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
 html, body {
   margin: 0;
   padding: 0;
@@ -32,8 +32,8 @@ section {
 }
 
 h1 {
-  font-size: 28px;
-  font-weight: 900;
+  font-size: 30px;
+  font-weight: bold;
   color: #3c2b5f;
 }
 
@@ -41,7 +41,7 @@ h1 {
   padding: 14px 20px;
   text-decoration: none !important;
   border: 1px solid #3c2b5f;
-  font-weight: 900;
+  font-weight: 600;
   border-radius: 5px;
   margin: 0 auto;
   color: #3c2b5f !important;
@@ -56,7 +56,7 @@ h1 {
 .button-white {
   padding: 10px 15px;
   text-decoration: none !important;
-  font-weight: 900;
+  font-weight: 600;
   border-radius: 4px;
   margin: 0 auto;
   color: #3c2b5f !important;
@@ -80,14 +80,14 @@ footer {
 }
 
 .footer-text {
-  font-weight: 100;
+  font-weight: 300;
   color: #fff !important;
   line-height: 30px;
   margin: 10px 30px 0 0;
 }
 
 .link {
-  font-weight: 900;
+  font-weight: 600;
   color: #fff !important;
 }
 

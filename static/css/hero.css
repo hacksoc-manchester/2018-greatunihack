@@ -16,7 +16,7 @@
 #header {
   font-size: 70px;
   color: #FFF;
-  font-weight: bold;
+  font-weight: 600;
   text-align: left;
   margin-top: 15%;
   width: 735px;
@@ -25,7 +25,7 @@
 
 #header-subscript {
   margin-top: 20px;
-  font-weight: 200;
+  font-weight: 300;
   max-width: 600px;
   color: #eeeeee;
 }
@@ -42,7 +42,7 @@
   -moz-box-shadow: 0px 0px 62px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 0px 62px 0px rgba(0, 0, 0, 0.15);
   margin-bottom: 50px;
-  font-weight: 900;
+  font-weight: 600;
   padding: 40px;
 }
 
