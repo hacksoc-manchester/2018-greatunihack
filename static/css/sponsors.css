@@ -23,19 +23,98 @@ h3 {
 }
 
 .gold {
-  max-width: 400px;
+  max-width: 300px;
+  margin-top: 20px;
 }
 
 .silver {
-  max-width: 300px;
+  margin-top: 30px;
+  max-width: 250px;
 }
 
 .bronze {
+  margin-top: 30px;
   max-width: 200px;
 }
 
 .sponsor-image-container {
   margin: 0 auto;
+}
+
+#amex-logo {
+  max-width: 150px;
+}
+
+#morgan-stanley-logo {
+  margin-top: 90px;
+  max-width: 280px;
+}
+
+#skyscanner-logo {
+  margin-top: 85px;
+  margin-left: 30px;
+}
+
+#visa-logo {
+  max-width: 200px;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 1199px) {
+  #skyscanner-logo {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #amex-logo {
+    max-width: 100px;
+  }
+  #morgan-stanley-logo {
+    margin-top: 70px;
+    margin-left: -10px;
+    max-width: 280px;
+  }
+  #skyscanner-logo {
+    margin-top: 65px;
+    margin-left: 10px;
+  }
+  #visa-logo {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  #netcraft-logo {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #amex-logo {
+    max-width: 80px;
+  }
+  #morgan-stanley-logo {
+    margin-left: -7px;
+    margin-top: 65px;
+  }
+  #skyscanner-logo {
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  #visa-logo {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #amex-logo {
+    max-width: 130px;
+  }
+  #morgan-stanley-logo, #skyscanner-logo, #visa-logo  {
+    margin-top: 20px;
+  }
+  #visa-logo, #netcraft-logo, #morgan-stanley-logo, #skyscanner-logo {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 575px) {
