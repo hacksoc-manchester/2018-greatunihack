@@ -167,6 +167,10 @@
   .number-subscript {
     font-size: 10px
   }
+  #timer {
+    width: 100%;
+    left: 0;
+  }
 }
 
 @media screen and (max-width: 375px) {
