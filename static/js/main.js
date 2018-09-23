@@ -28,4 +28,22 @@ $(window).resize(function(){
   } else {
     $(".timer-column").removeClass("col-3");
   }
+
+  $("#timer").width($("#header-container").width() - Number($("#timer").css("padding-left").substring(0, 2)) * 2);
+  $("#timer").css("left", $("#header-container").offset().left);
+
+  // console.log($(".question-card"));
+
+  // var maxHeight = 0;
+  // $(".question-card").each(function (index, card) {
+  //   var height = $(card).height();
+  //     // + $(card).css("padding-top").substring(0, $(card).css("padding-top").indexOf("px"));
+  //   if (height > maxHeight) {
+  //     maxHeight = height;
+  //   }
+  // });
+  
+  // console.log(maxHeight);
+  
+  // $(".question-card").height(maxHeight);
 });

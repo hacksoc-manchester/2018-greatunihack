@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600,700');
 html, body {
   margin: 0;
   padding: 0;
@@ -89,6 +89,10 @@ footer {
 .link {
   font-weight: 600;
   color: #fff !important;
+}
+
+.nav-link {
+  padding: 15px !important;
 }
 
 .buffer-right-15 {

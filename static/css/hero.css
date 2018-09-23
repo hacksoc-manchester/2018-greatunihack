@@ -3,6 +3,11 @@
   background-size: cover;
 }
 
+.navbar {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 .nav-link {
   font-weight: 600;
   font-size: 11px;
@@ -82,16 +87,12 @@
     font-size: 23px;
   }
   #timer {
-    width: 72%;
-    left: 15%;
     padding: 30px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   #timer {
-    width: 80%;
-    left: 11.5%;
     padding: 20px;
   }
 }
@@ -100,13 +101,17 @@
   #header {
     font-size: 50px;
   }
+  #header-subscript {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 884px) {
   #timer {
-    width: 90%;
-    left: 7%;
     padding: 10px;
+  }
+  #date-info {
+    font-size: 22px;
   }
 }
 
@@ -135,6 +140,7 @@
   }
   #header {
     margin-top: 40%;
+    font-size: 45px;
   }
   #apply-button {
     margin-bottom: 20px;
@@ -145,15 +151,15 @@
   #header {
     font-size: 35px;
   }
-  #timer {
-    left: 7.5%;
-  }
 }
 
 @media screen and (max-width: 425px) {
   #header {
     font-size: 30px;
-    margin-top: 30%;
+    margin-top: 50%;
+  }
+  #header-subscript {
+    margin-top: -30px;
   }
   .timer-number {
     font-size: 40px;
@@ -161,16 +167,10 @@
   .number-subscript {
     font-size: 10px
   }
-  #timer {
-    left: 8%;
-  }
 }
 
 @media screen and (max-width: 375px) {
   #header {
     font-size: 25px;
-  }
-  #timer {
-    left: 9%;
   }
 }
