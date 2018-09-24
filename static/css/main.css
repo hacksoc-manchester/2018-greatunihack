@@ -91,6 +91,10 @@ footer {
   color: #fff !important;
 }
 
+nav {
+  z-index: 99999;
+}
+
 .nav-link {
   padding: 15px !important;
 }
