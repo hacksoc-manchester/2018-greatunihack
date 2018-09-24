@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800');
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: white;
+  font-size: 55px;
+  text-align: center;
+  position: relative;
+  top: -10%;
+  opacity: 0.9;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: -10%;
+  opacity: 0.5;
+}
+
+.teaser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  left: 35%;
+  top: 35%;
+  background: url("/static/images/topBG.png") center no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+  .teaser {
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 40px;
+  }
+  .teaser {
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+  }
+}
