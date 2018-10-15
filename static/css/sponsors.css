@@ -46,6 +46,19 @@ h3 {
   max-width: 150px;
 }
 
+#goldman-sachs-logo {
+  margin-top: 15px;
+  max-width: 125px;
+}
+
+#thg-logo {
+  max-width: 170px;
+}
+
+#codethink-logo, #netcraft-logo, #thg-logo {
+  margin-top: 50px;
+}
+
 #morgan-stanley-logo {
   margin-top: 90px;
   max-width: 280px;
@@ -84,14 +97,17 @@ h3 {
     margin-top: 50px;
     margin-left: 20px;
   }
-  #netcraft-logo {
-    margin-left: 20px;
-  }
 }
 
 @media screen and (max-width: 768px) {
   #amex-logo {
     max-width: 80px;
+  }
+  #goldman-sachs-logo {
+    max-width: 70px;
+  }
+  #codethink-logo, #netcraft-logo, #thg-logo {
+    margin-top: 25px;
   }
   #morgan-stanley-logo {
     margin-left: -7px;
@@ -109,6 +125,12 @@ h3 {
 @media screen and (max-width: 575px) {
   #amex-logo {
     max-width: 130px;
+  }
+  #goldman-sachs-logo {
+    max-width: 115px;
+  }
+  #netcraft-logo {
+    max-width: 250px;
   }
   #morgan-stanley-logo, #skyscanner-logo, #visa-logo  {
     margin-top: 20px;
