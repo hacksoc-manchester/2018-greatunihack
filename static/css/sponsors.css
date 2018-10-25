@@ -59,6 +59,10 @@ h3 {
   margin-top: 50px;
 }
 
+#bentley-logo {
+  max-width: 200px;
+}
+
 #barclays-logo {
   margin-top: 85px;
   max-width: 280px;
@@ -134,7 +138,7 @@ h3 {
     max-width: 70px;
   }
   #codethink-logo, #netcraft-logo, #thg-logo {
-    margin-top: 25px;
+    margin-top: 35px;
   }
   #barclays-logo {
     margin-top: 62px;
@@ -148,6 +152,9 @@ h3 {
   }
   #visa-logo {
     margin-top: 48px;
+  }
+  #bentley-logo {
+    max-width: 100px;
   }
 }
 
@@ -169,6 +176,7 @@ h3 {
   }
   #push-doctor-logo {
     margin-left: 0;
+    max-width: 300px;
   }
   #aws-logo {
     width: 150px;
@@ -177,6 +185,9 @@ h3 {
   #intel-logo {
     width: 130px;
     margin-left: 0;
+  }
+  #bentley-logo {
+    max-width: 210px;
   }
 }
 
