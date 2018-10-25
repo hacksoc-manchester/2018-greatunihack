@@ -35,6 +35,18 @@
   color: #eeeeee;
 }
 
+#headline-sponsor {
+  /* margin-top: -40px; */
+  font-weight: 600;
+  max-width: 600px;
+  color: #eeeeee;
+}
+
+#headline-sponsor-logo {
+  position: relative;
+  left: -105px;
+}
+
 #timer {
   position: absolute;
   top: 75%;
@@ -153,7 +165,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
   #header {
     font-size: 30px;
     margin-top: 50%;
@@ -169,6 +181,9 @@
   }
   #timer {
     width: 100%;
+    left: 0;
+  }
+  #headline-sponsor-logo {
     left: 0;
   }
 }
