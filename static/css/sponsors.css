@@ -68,7 +68,7 @@ h3 {
   max-width: 280px;
 }
 
-#morgan-stanley-logo{
+#morgan-stanley-logo {
   margin-top: 90px;
   max-width: 280px;
   margin-left: 20px;
@@ -88,6 +88,10 @@ h3 {
   min-width: 250px;
   margin-top: 50px;
   margin-left: 70px;
+}
+
+#daktarimkononi-logo {
+  max-width: 270px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -168,7 +172,7 @@ h3 {
   #netcraft-logo {
     max-width: 250px;
   }
-  #morgan-stanley-logo, #skyscanner-logo, #visa-logo, #barclays-logo  {
+  #morgan-stanley-logo, #skyscanner-logo, #visa-logo, #barclays-logo {
     margin-top: 20px;
   }
   #visa-logo, #netcraft-logo, #morgan-stanley-logo, #skyscanner-logo {
