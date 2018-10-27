@@ -36,7 +36,6 @@
 }
 
 #headline-sponsor {
-  /* margin-top: -40px; */
   font-weight: 600;
   max-width: 600px;
   color: #eeeeee;
@@ -44,6 +43,8 @@
 
 #headline-sponsor-logo {
   position: relative;
+  width: auto;
+  height: auto;
   left: -105px;
 }
 
@@ -157,6 +158,10 @@
   #apply-button {
     margin-bottom: 20px;
   }
+  #headline-sponsor-logo {
+    top: 10px;
+    max-height: 40px;
+  }
 }
 
 @media screen and (max-width: 559px) {
@@ -181,9 +186,6 @@
   }
   #timer {
     width: 100%;
-    left: 0;
-  }
-  #headline-sponsor-logo {
     left: 0;
   }
 }
