@@ -1,0 +1,38 @@
+#schedule {
+  margin: 7% auto;
+  min-height: 0;
+  height: auto;
+}
+
+#schedulle-content {
+  margin-top: 50px;
+}
+
+.schedule-item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.schedule-time {
+  display: inline-block;
+  min-width: 50px;
+  color: #8761d3;
+  font-weight: 600;
+}
+
+.schedule-day {
+  color: #3c2b5f;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+
+.schedule-item.bold>.schedule-time {
+  color: #6b4da8;
+  font-weight: 900;
+}
+
+.schedule-item.bold>.schedule-title {
+  color: #5c5c5c;
+  font-weight: 900;
+}
