@@ -84,7 +84,7 @@ h3 {
   margin-top: 70px;
 }
 
-#aws-logo {
+#aws-logo, #romanianit-logo {
   min-width: 250px;
   margin-top: 50px;
   margin-left: 70px;
@@ -92,6 +92,15 @@ h3 {
 
 #daktarimkononi-logo {
   max-width: 270px;
+  margin-top: 75px;
+}
+
+#romanianit-logo {
+  margin-top: 100px;
+}
+
+#makeit-logo {
+  max-width: 150px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -128,9 +137,15 @@ h3 {
     width: 100px;
     margin-left: 30px;
   }
-  #aws-logo {
+  #aws-logo, #romanianit-logo  {
     max-width: 70px;
     margin-left: -40px;
+  }
+  #makeit-logo {
+    max-width: 130px;
+  }
+  #romanianit-logo  {
+    margin-top: 90px;
   }
 }
 
@@ -160,6 +175,12 @@ h3 {
   #bentley-logo {
     max-width: 100px;
   }
+  #romanianit-logo  {
+    margin-top: 80px;
+  }
+  #makeit-logo {
+    max-width: 100px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -182,7 +203,7 @@ h3 {
     margin-left: 0;
     max-width: 300px;
   }
-  #aws-logo {
+  #aws-logo, #romanianit-logo  {
     width: 150px;
     margin-left: -110px;
   }
@@ -192,6 +213,9 @@ h3 {
   }
   #bentley-logo {
     max-width: 210px;
+  }
+  #daktarimkononi-logo, #romanianit-logo {
+    margin-top: 30px;
   }
 }
 
