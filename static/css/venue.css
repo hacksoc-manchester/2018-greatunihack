@@ -1,0 +1,9 @@
+#venue {
+  margin: 7% auto;
+  min-height: 0;
+  height: auto;
+}
+
+#venue-image {
+  max-width: 100%;
+}
