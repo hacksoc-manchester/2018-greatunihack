@@ -22,6 +22,9 @@ function updateTime() {
 
   if (distance < 0) {
     clearInterval(x);
-    // TODO: create handler for when the timer runs out
+    $("#days").html("00");
+    $("#hours").html("00");
+    $("#minutes").html("00");
+    $("#seconds").html("00");
   }
 }
